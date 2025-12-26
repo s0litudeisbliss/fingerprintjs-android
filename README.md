@@ -54,7 +54,8 @@ The identifier is fully stateless and will remain the same after reinstalling or
 ## Table of Contents
 1. [Quick start](#quick-start)
 2. [Usage](#3-get-deviceids-and-fingerprints)
-3. [Playground App](#fingerprint-android-demo-app)
+3. [How it works](docs/how_fingerprinting_works.md) - Detailed explanation of fingerprint and device ID derivation
+4. [Playground App](#fingerprint-android-demo-app)
 
 
 ## Quick start
@@ -145,6 +146,8 @@ This identifier is stable, i.e. it will remain the same even after reinstalling 
 But it will be different after factory reset of the device.
 
 2. `fingerprint` is a digital device fingerprint. It works by combining all available device signals and attributes into a single identifier. There is a probability that two identical devices will have the same `fingerprint`.
+
+**For a detailed technical explanation of how fingerprinting and device ID derivation work, see [How it works](docs/how_fingerprinting_works.md).**
 
 
 #### Which one should I use?
